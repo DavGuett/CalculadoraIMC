@@ -2,3 +2,11 @@
 Console.WriteLine("Qual a sua altura?");
 Console.WriteLine("Qual o seu peso?");
 Console.WriteLine("O seu IMC se encontra entre: ");
+
+double imc;
+
+static double CalcularIMC(double peso, double altura)
+{
+    double imc = peso / (altura*altura); 
+    return imc;
+}
